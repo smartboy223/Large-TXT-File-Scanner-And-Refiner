@@ -1,1 +1,6 @@
-###replace this with your large txt file and ensure the name of this file is same as input.txt so the code will work and give you refined result
+### Instructions for Using input.txt
+
+- Replace the content of this file with your large text file.
+- Ensure the name of the file remains **input.txt** so that the code can properly read it.
+- This file is used by the script to refine data based on your include and exclude keywords.
+- Once replaced, the code will process the file and provide you with refined results.
