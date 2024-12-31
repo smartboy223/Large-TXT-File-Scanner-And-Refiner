@@ -1,3 +1,4 @@
+
 # Scan and Refine Large TXT Files
 
 ## 📋 Project Overview
@@ -30,6 +31,78 @@ Ensure you have Python 3.x installed on your system. Follow these steps to set u
    ```bash
    git clone https://github.com/smartboy223/Scan-and-refine-large-txt-file.git
    cd Scan-and-refine-large-txt-file
-   pip install -r requirements.txt
-   python3 refine.py
+   ```
 
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the application:
+   ```bash
+   python3 refine.py
+   ```
+
+---
+
+## 📂 Input File Information
+
+- Replace the default `input.txt` file with your own large text file.
+- The code is capable of processing extremely large files. It has been tested successfully with a **5GB file containing 80 million lines**.
+- By default, the tool stops after refining **100 results**, but it can handle up to **3000 refined results** with ease. Depending on the file size and filters applied, this may take a few seconds or minutes.
+
+---
+
+## 📂 File Structure
+
+- **`refine.py`**: The main Python script for running the GUI tool.
+- **`requirements.txt`**: File listing all Python dependencies for the project.
+- **`README.md`**: Documentation for the project.
+- **Sample Input Files**: Example text files (`input.txt`, `input-1.txt`, etc.) to test the functionality.
+
+---
+
+## 💡 Example Usage
+
+### Input
+- **Include Keywords**: `keyword1, keyword2`
+- **Exclude Keywords**: `exclude1, exclude2`
+- **Text Files**: Replace `input.txt` with your own large text file.
+
+### Output
+- A refined results file (`refined_results.txt`) containing lines that match the include/exclude criteria.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request.
+
+---
+
+## 📧 Contact
+
+Created by **smartboy223**. For any questions or feedback, reach out via GitHub.
+
+---
+
+## 🏆 Acknowledgments
+
+Thanks to the open-source community for tools and inspiration that make this project possible.
+
+---
