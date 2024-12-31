@@ -30,3 +30,6 @@ Ensure you have Python 3.x installed on your system. Follow these steps to set u
    ```bash
    git clone https://github.com/smartboy223/Scan-and-refine-large-txt-file.git
    cd Scan-and-refine-large-txt-file
+   pip install -r requirements.txt
+   python3 refine.py
+
