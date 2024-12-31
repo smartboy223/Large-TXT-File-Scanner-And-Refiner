@@ -1,5 +1,5 @@
 
-# Scan and Refine Large TXT Files
+# Large-TXT-File-Scanner-And-Refiner
 
 ## 📋 Project Overview
 **Scan and Refine Large TXT Files** is a Python-based graphical user interface (GUI) tool for processing and refining large text files. With this tool, you can:
